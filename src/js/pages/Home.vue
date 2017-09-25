@@ -1,21 +1,13 @@
 <template>
   <div id="app">
-    <h1>Hello</h1>
+    <cloud></cloud>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app',
-  data () {
-    return {
-    }
-  }
-}
-</script>
+import Cloud from '../components/Cloud.vue';
 
-<style scoped>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-}
-</style>
+export default {
+  name: 'App'
+};
+</script>
