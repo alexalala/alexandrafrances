@@ -22,7 +22,13 @@ export default {
     width: 350px;
     height: 400px;
     position: relative;
-  }
+    -webkit-animation: move 20s infinite linear;
+    -moz-animation: move 20s infinite linear;
+    -ms-animation: move 20s infinite linear;
+    z-index: 1;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
 
   .cloud-base {
     width: 350px;
@@ -56,5 +62,52 @@ export default {
     border-radius: 100em;
     top: 0;
     right: 160px;
+  }
+}
+
+
+  @-webkit-keyframes move {
+    0% {left: 0px;}
+    49% {left: 940px; opacity: 1;}
+    50% {left: 940px; opacity: 0;}
+    51% {left: -940px; opacity: 0;}
+    52% {left: -940px; opacity: 1;}
+    100% {left: 0px;}
+  }
+
+  @-webkit-keyframes backup {
+    0% {left: -940px;}
+    100% {left: 940px;}
+
+  }
+
+  @-moz-keyframes move {
+    0% {left: 0px;}
+    49% {left: 940px; opacity: 1;}
+    50% {left: 940px; opacity: 0;}
+    51% {left: -940px; opacity: 0;}
+    52% {left: -940px; opacity: 1;}
+    100% {left: 0px;}
+  }
+
+  @-moz-keyframes backup {
+    0% {left: -940px;}
+    100% {left: 940px;}
+
+  }
+
+  @-ms-keyframes move {
+    0% {left: 0px;}
+    49% {left: 940px; opacity: 1;}
+    50% {left: 940px; opacity: 0;}
+    51% {left: -940px; opacity: 0;}
+    52% {left: -940px; opacity: 1;}
+    100% {left: 0px;}
+  }
+
+  @-ms-keyframes backup {
+    0% {left: -940px;}
+    100% {left: 940px;}
+
   }
 </style>
