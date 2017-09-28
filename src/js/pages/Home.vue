@@ -2,12 +2,16 @@
   <div id="app">
     <div class="container">
       <cloud></cloud>
+      <cloud2></cloud2>
+      <cloud3></cloud3>
     </div>
   </div>
 </template>
 
 <script>
-import Cloud from '../components/Cloud.vue';
+import Cloud from '../components/clouds/Cloud.vue';
+import Cloud2 from '../components/clouds/Cloud2.vue';
+import Cloud3 from '../components/clouds/Cloud3.vue';
 
 export default {
   name: 'App'
@@ -29,5 +33,8 @@ export default {
     overflow: hidden;
     margin: auto;
     margin: 0;
+  }
+  .container:nth-child(2) {
+
   }
 </style>
