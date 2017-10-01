@@ -1,5 +1,6 @@
 <template>
   <div class="content">
+    <div class="scallop"></div>
     <div class="container">
       <cloud></cloud>
       <cloud2></cloud2>
@@ -18,25 +19,30 @@ export default {
 }
 </script>
 
-<style>
+<style lang="sass">
   body {
     padding: 0;
     overflow: hidden;
     margin: 0;
-  }
-  .content {
-    background-color: #54AFAF;
-    height: 90vh;
-  }
-  .container {
-    width: 100%;
-    position: relative;
-    height: 400px;
-    overflow: hidden;
-    margin: auto;
-    margin: 0;
-  }
-  .container:nth-child(2) {
 
+    .content {
+      background-color: #54AFAF;
+      height: 90vh;
+
+      .scallop {
+        background-image: url("assets/scalloped-edge.svg");
+        background-color: white;
+        height: 3vh;
+      }
+
+      .container {
+        width: 100%;
+        position: relative;
+        height: 400px;
+        overflow: hidden;
+        margin: auto;
+        margin: 0;
+      }
+    }
   }
 </style>
