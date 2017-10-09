@@ -1,6 +1,5 @@
 <template>
   <div class="content">
-    <div class="scallop"></div>
     <div class="container">
       <cloud></cloud>
       <cloud2></cloud2>
@@ -28,12 +27,6 @@ export default {
     .content {
       background-color: #54AFAF;
       height: 90vh;
-
-      .scallop {
-        background-image: url("assets/scalloped-edge.svg");
-        background-color: white;
-        height: 3vh;
-      }
 
       .container {
         width: 100%;
