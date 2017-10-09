@@ -5,6 +5,10 @@
       <cloud2></cloud2>
       <cloud3></cloud3>
     </div>
+    <div class="ground">
+      <div class="pavement"></div>
+      <div class="road-dividers"></div>
+    </div>
   </div>
 </template>
 
@@ -26,7 +30,8 @@ export default {
 
     .content {
       background-color: #54AFAF;
-      height: 90vh;
+      height: 85vh;
+      position: relative;
 
       .container {
         width: 100%;
@@ -35,6 +40,33 @@ export default {
         overflow: hidden;
         margin: auto;
         margin: 0;
+      }
+      .ground {
+        width: 100%;
+        height: 15vh;
+        background-color: grey;
+        bottom: 0;
+        position: absolute;
+
+        .pavement {
+          width: 100%;
+          height: 10%;
+          background-color: lightgray;
+        }
+        .road-dividers {
+          width: 100%;
+          height: 5%;
+          position: absolute;
+          background: repeating-linear-gradient(
+            to right,
+            grey,
+            grey 60px,
+            white 60px,
+            white 100px
+          );
+          bottom: 50%;
+          top: 50%;
+        }
       }
     }
   }
