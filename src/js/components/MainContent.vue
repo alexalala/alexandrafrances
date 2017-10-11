@@ -5,6 +5,7 @@
       <cloud2></cloud2>
       <cloud3></cloud3>
     </div>
+    <building1></building1>
     <div class="ground">
       <div class="pavement"></div>
       <div class="road-dividers"></div>
@@ -16,6 +17,7 @@
 import Cloud from '../components/clouds/Cloud.vue';
 import Cloud2 from '../components/clouds/Cloud2.vue';
 import Cloud3 from '../components/clouds/Cloud3.vue';
+import Building1 from '../components/buildings/Building1.vue';
 
 export default {
   name: 'MainContent'
