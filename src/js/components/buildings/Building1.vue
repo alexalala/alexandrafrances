@@ -16,7 +16,7 @@
   .building {
     background-color: black;
     height: 20vh;
-    width: 12vw;
+    width: 18vw;
     position: absolute;
     bottom: 0;
     margin-bottom: 120px;
