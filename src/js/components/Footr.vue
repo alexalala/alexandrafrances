@@ -11,12 +11,14 @@
 </script>
 
 <style lang="sass">
+  @import "src/styles/components/vars.scss";
+
   .footer {
     text-align: center;
     background-color: white;
     p {
       font-family: 'Quicksand', sans-serif;
-      color: #FF7B7B;
+      color: $red;
     }
   }
 </style>

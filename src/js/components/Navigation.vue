@@ -17,12 +17,14 @@ export default {
 </script>
 
 <style lang="sass">
+  @import "src/styles/components/vars.scss";
+
   .nav {
     h1 {
       text-align: left;
       font-family: 'Vidaloka', serif;
       display: inline-block;
-      color: #FF7B7B;
+      color: $orange;
       margin: 1rem;
       font-weight: 100;
     }

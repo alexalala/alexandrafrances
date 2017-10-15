@@ -16,37 +16,39 @@ export default {
 }
 </script>
 
-  <style lang="sass">
-    .cloud2 {
-      margin: -25em auto;
-      width: 350px;
-      height: 400px;
-      position: fixed;
-      -webkit-animation: move 25s infinite linear;
-      -moz-animation: move 25s infinite linear;
-      -ms-animation: move 25s infinite linear;
-      z-index: 1;
-      -webkit-border-radius: 200px;
-      -moz-border-radius: 200px;
-      border-radius: 200px;
+<style lang="sass">
+  @import "src/styles/components/vars.scss";
+
+  .cloud2 {
+    margin: -25em auto;
+    width: 350px;
+    height: 400px;
+    position: fixed;
+    -webkit-animation: move 25s infinite linear;
+    -moz-animation: move 25s infinite linear;
+    -ms-animation: move 25s infinite linear;
+    z-index: 1;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
 
     .cloud-base {
       width: 280px;
       height: 100px;
-      background: #f2f2f2;
+      background: $cloud-white;
       border-radius: 100em;
       position: absolute;
       z-index: 100;
       top: 50px;
       box-shadow: 0 3px 3px rgba(0,0,0, 0.3);
-      background: linear-gradient(#F2F2F2 70%, #E5E5E5);
+      background: linear-gradient($cloud-white 70%, $cloud-grey);
     }
 
     .cloud-right {
       width: 125px;
       height: 130px;
       margin: 0 auto;
-      background: #F2F2F2;
+      background: $cloud-white;
       position: absolute;
       border-radius: 100em;
       top: -15px;
@@ -57,7 +59,7 @@ export default {
       width: 100px;
       height: 100px;
       margin: 0 auto;
-      background: #F2F2F2;
+      background: $cloud-white;
       position: absolute;
       border-radius: 100em;
       top: 0;
@@ -77,6 +79,5 @@ export default {
   @-webkit-keyframes backup {
     0% {left: -1140px;}
     100% {left: 1140px;}
-
   }
 </style>

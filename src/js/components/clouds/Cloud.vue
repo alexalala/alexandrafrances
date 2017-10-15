@@ -17,6 +17,8 @@ export default {
 </script>
 
 <style lang="sass">
+  @import "src/styles/components/vars.scss";
+
   .cloud {
     margin: 3em auto;
     width: 350px;
@@ -33,20 +35,20 @@ export default {
   .cloud-base {
     width: 200px;
     height: 80px;
-    background: #f2f2f2;
+    background: $cloud-white;
     border-radius: 100em;
     position: absolute;
     z-index: 100;
     top: 50px;
     box-shadow: 0 3px 3px rgba(0,0,0, 0.3);
-    background: linear-gradient(#F2F2F2 70%, #E5E5E5);
+    background: linear-gradient($cloud-white 70%, $cloud-grey);
   }
 
   .cloud-right {
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    background: #F2F2F2;
+    background: $cloud-white;
     position: absolute;
     border-radius: 100em;
     top: 10px;
@@ -57,7 +59,7 @@ export default {
     width: 120px;
     height: 110px;
     margin: 0 auto;
-    background: #F2F2F2;
+    background: $cloud-white;
     position: absolute;
     border-radius: 100em;
     top: 20px;
