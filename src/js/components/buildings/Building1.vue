@@ -17,11 +17,11 @@
 
   .building {
     background-color: $darkest-grey;
-    height: 20vh;
+    height: 40vh;
     width: 18vw;
     position: absolute;
     bottom: 0;
-    margin-bottom: 120px;
+    border-radius: 10px;
 
     .windows {
       width: 10%;
