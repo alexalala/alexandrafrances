@@ -25,13 +25,15 @@ export default {
 </script>
 
 <style lang="sass">
+  @import "src/styles/components/vars.scss";
+  
   body {
     padding: 0;
     overflow: hidden;
     margin: 0;
 
     .content {
-      background-color: #54AFAF;
+      background-color: $blue;
       height: 85vh;
       position: relative;
 

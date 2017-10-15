@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
+    "build-sass": "node-sass --include-path scss src/styles/app.scss dist/app.css",
     "serve": "http-server -o -s -c 1 -a localhost",
-    "dev": "npm-run-all --parallel watchify serve",
+    "dev": "npm-run-all --parallel watchify serve build-sass",
     "build": "cross-env NODE_ENV=production browserify -g envify src/main.js | uglifyjs -c warnings=false -m > dist/build.js"
   },
   "dependencies": {
