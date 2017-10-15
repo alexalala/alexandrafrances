@@ -20,11 +20,12 @@ export default {
   @import "src/styles/components/vars.scss";
 
   .nav {
+    background-color: $white;
     h1 {
       text-align: left;
       font-family: 'Vidaloka', serif;
       display: inline-block;
-      color: $orange;
+      color: $red;
       margin: 1rem;
       font-weight: 100;
     }

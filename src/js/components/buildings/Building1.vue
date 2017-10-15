@@ -13,8 +13,10 @@
 </script>
 
 <style lang="sass">
+  @import "src/styles/components/vars.scss";
+
   .building {
-    background-color: black;
+    background-color: $darkest-grey;
     height: 20vh;
     width: 18vw;
     position: absolute;
@@ -27,10 +29,10 @@
       margin: 0 10%;
       background: repeating-linear-gradient(
         to bottom,
-        black,
-        black 20px,
-        white 20px,
-        white 40px
+        $darkest-grey,
+        $darkest-grey 20px,
+        $white 20px,
+        $white 40px
       );
       display: inline-block;
     }

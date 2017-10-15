@@ -15,7 +15,7 @@
 
   .footer {
     text-align: center;
-    background-color: white;
+    background-color: $white;
     p {
       font-family: 'Quicksand', sans-serif;
       color: $red;
