@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 import Home from './js/pages/Home.vue';
 import Blog from './js/pages/Blog.vue';
 import About from './js/pages/About.vue';
+import Contact from './js/pages/Contact.vue';
 
 import Navigation from './js/components/Navigation.vue';
 import Footr from './js/components/Footr.vue';
@@ -28,7 +29,8 @@ const router = new VueRouter ({
   routes: [
     { path: '/', name: 'Home', component: Home },
     { path: '/blog', name: 'Blog', component: Blog },
-    { path: '/about', name: 'About', component: About}
+    { path: '/about', name: 'About', component: About },
+    { path: '/contact', name: 'Contact', component: Contact }
   ]
 });
 
