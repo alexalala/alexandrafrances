@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 
 import Home from './js/pages/Home.vue';
 import Blog from './js/pages/Blog.vue';
+import About from './js/pages/About.vue';
 
 import Navigation from './js/components/Navigation.vue';
 import Footr from './js/components/Footr.vue';
@@ -26,7 +27,8 @@ Vue.use(VueRouter);
 const router = new VueRouter ({
   routes: [
     { path: '/', name: 'Home', component: Home },
-    { path: '/blog', name: 'Blog', component: Blog }
+    { path: '/blog', name: 'Blog', component: Blog },
+    { path: '/about', name: 'About', component: About}
   ]
 });
 
