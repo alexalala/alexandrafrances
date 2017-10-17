@@ -2,8 +2,8 @@
   <div class="nav">
     <h1>alexandra frances</h1>
     <ul>
-      <li>Home</li>
-      <li>Blog</li>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/blog">Blog</router-link></li>
       <li>About</li>
       <li>Contact</li>
     </ul>
