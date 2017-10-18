@@ -6,6 +6,7 @@
       <cloud3></cloud3>
     </div>
     <building1></building1>
+    <pug></pug>
     <road></road>
   </div>
 </template>
@@ -16,6 +17,7 @@ import Cloud2 from '../components/clouds/Cloud2.vue';
 import Cloud3 from '../components/clouds/Cloud3.vue';
 import Building1 from '../components/buildings/Building1.vue';
 import Road from '../components/misc/Road.vue';
+import Pug from '../components/misc/Pug.vue';
 
 export default {
   name: 'MainContent'

@@ -14,6 +14,7 @@ import Cloud2 from './js/components/clouds/Cloud2.vue';
 import Cloud3 from './js/components/clouds/Cloud3.vue';
 import Building1 from './js/components/buildings/Building1.vue';
 import Road from './js/components/misc/Road.vue';
+import Pug from './js/components/misc/Pug.vue';
 
 Vue.component('navigation', Navigation);
 Vue.component('footr', Footr);
@@ -22,6 +23,7 @@ Vue.component('cloud2', Cloud2);
 Vue.component('cloud3', Cloud3);
 Vue.component('building1', Building1);
 Vue.component('road', Road);
+Vue.component('pug', Pug);
 
 Vue.use(VueRouter);
 
