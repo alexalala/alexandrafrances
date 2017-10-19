@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: 'Building1'
+    name: 'BlockOfFlats'
   }
 </script>
 

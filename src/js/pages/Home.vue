@@ -5,7 +5,7 @@
       <cloud2></cloud2>
       <cloud3></cloud3>
     </div>
-    <building1></building1>
+    <block-of-flats></block-of-flats>
     <pug></pug>
     <road></road>
   </div>
@@ -15,7 +15,7 @@
 import Cloud from '../components/clouds/Cloud.vue';
 import Cloud2 from '../components/clouds/Cloud2.vue';
 import Cloud3 from '../components/clouds/Cloud3.vue';
-import Building1 from '../components/buildings/Building1.vue';
+import BlockOfFlats from '../components/buildings/BlockOfFlats.vue';
 import Road from '../components/misc/Road.vue';
 import Pug from '../components/misc/Pug.vue';
 
