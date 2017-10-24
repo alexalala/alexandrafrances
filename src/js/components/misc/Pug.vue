@@ -6,7 +6,9 @@
       <div class="ear"></div>
     </div>
     <div class="body">
-      <div class="collar"></div>
+      <div class="collar">
+        <div class="tag"></div>
+      </div>
     </div>
     <div class="legs">
       <div class="leg">
@@ -60,6 +62,14 @@
         background-color: $red;
         transform: rotate(36deg);
         margin: 5px 0 0 37px;
+
+        .tag {
+          height: 4px;
+          width: 4px;
+          margin: 1px 26px;
+          border-radius: 2px;
+          background-color: $gold;
+        }
       }
     }
     .head {
