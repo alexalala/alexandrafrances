@@ -5,7 +5,9 @@
       <div class="snoot"></div>
       <div class="ear"></div>
     </div>
-    <div class="body"></div>
+    <div class="body">
+      <div class="collar"></div>
+    </div>
     <div class="legs">
       <div class="leg">
         <div class="foot"></div>
@@ -47,6 +49,15 @@
       background-color: $black;
       border-radius: 25px;
       position: absolute;
+
+      .collar {
+        position: absolute;
+        height: 3px;
+        width: 26px;
+        background-color: $red;
+        transform: rotate(36deg);
+        margin: 5px 0 0 37px;
+      }
     }
     .head {
       height: 30px;
@@ -76,7 +87,7 @@
         border-radius: 0 0 5px 5px;
         position: absolute;
         margin: 6px 8px;
-        background-color: darkslategray;
+        background-color: $darkest-grey;
       }
     }
     .legs {
