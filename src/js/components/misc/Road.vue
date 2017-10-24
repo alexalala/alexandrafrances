@@ -16,7 +16,7 @@ export default {
 
   .ground {
     width: 100%;
-    height: 15vh;
+    height: 7rem;
     background-color: $grey;
     bottom: 0;
     position: absolute;

@@ -36,8 +36,10 @@
   .pug {
     height: 80px;
     width: 80px;
-    position: relative;
-    margin-left: 50vw;
+    position: absolute;
+    margin-left: 70vw;
+    bottom: 5rem;
+    z-index: 1;
 
     .body {
       height: 35px;
