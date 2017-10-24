@@ -45,7 +45,7 @@
     width: 80px;
     position: absolute;
     margin-left: 70vw;
-    bottom: 5rem;
+    bottom: 4.5rem;
     z-index: 1;
 
     .body {
