@@ -34,7 +34,7 @@ export default {
 
     .content {
       background-color: $blue;
-      height: 85vh;
+      height: calc(100vh - 120px);
       position: relative;
 
       .container {
