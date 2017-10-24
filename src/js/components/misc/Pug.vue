@@ -22,7 +22,10 @@
         <div class="foot"></div>
       </div>
     </div>
-    <div class="tail"></div>
+    <div class="tail">
+      <div></div>
+      <div></div>
+    </div>
   </div>
 </template>
 
@@ -135,6 +138,23 @@
           margin: 11px 1px;
           transform: rotate(15deg);
         }
+      }
+    }
+    .tail {
+      div {
+        height: 17px;
+        width: 15px;
+        border-radius: 50%;
+        position: absolute;
+        margin: -23px 0;
+        box-shadow: 0 5px 0 0 $black;
+        transform: rotate(87deg);
+      }
+      div:nth-child(2) {
+        margin: -19px -7px;
+        transform: rotate(209deg);
+        height: 14px;
+        width: 11px;
       }
     }
   }
