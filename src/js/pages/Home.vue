@@ -6,6 +6,7 @@
       <cloud3></cloud3>
     </div>
     <block-of-flats></block-of-flats>
+    <office-building></office-building>
     <pug></pug>
     <road></road>
   </div>
@@ -16,6 +17,7 @@ import Cloud from '../components/clouds/Cloud.vue';
 import Cloud2 from '../components/clouds/Cloud2.vue';
 import Cloud3 from '../components/clouds/Cloud3.vue';
 import BlockOfFlats from '../components/buildings/BlockOfFlats.vue';
+import OfficeBuilding from '../components/buildings/OfficeBuilding.vue';
 import Road from '../components/misc/Road.vue';
 import Pug from '../components/misc/Pug.vue';
 

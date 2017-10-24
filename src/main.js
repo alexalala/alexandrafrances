@@ -13,6 +13,7 @@ import Cloud from './js/components/clouds/Cloud.vue';
 import Cloud2 from './js/components/clouds/Cloud2.vue';
 import Cloud3 from './js/components/clouds/Cloud3.vue';
 import BlockOfFlats from './js/components/buildings/BlockOfFlats.vue';
+import OfficeBuilding from './js/components/buildings/OfficeBuilding.vue';
 import Road from './js/components/misc/Road.vue';
 import Pug from './js/components/misc/Pug.vue';
 
@@ -22,6 +23,7 @@ Vue.component('cloud', Cloud);
 Vue.component('cloud2', Cloud2);
 Vue.component('cloud3', Cloud3);
 Vue.component('block-of-flats', BlockOfFlats);
+Vue.component('office-building', OfficeBuilding);
 Vue.component('road', Road);
 Vue.component('pug', Pug);
 
