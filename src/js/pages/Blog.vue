@@ -1,5 +1,6 @@
 <template>
-  <p> Hi I'm a blog </p>
+  <div class="content">
+  </div>
 </template>
 
 <script>
@@ -7,3 +8,12 @@
     name: 'Blog'
   };
 </script>
+
+<style lang="sass">
+  @import "src/styles/components/vars.scss";
+
+  .content {
+    background-color: $green;
+    height: calc(100vh - 120px);
+  }
+</style>
